@@ -94,8 +94,9 @@ a:hover {
     margin: 60px auto;
 }
 .post-meta {
-    font-size: 12px;
+    font-size: 13px;
     margin: 10px 0;
+    display: inline-block;
     color: #666;
 }
 .content {
@@ -191,6 +192,9 @@ a:hover {
     .nav li {
         margin: 0 8px;
     }
+    .post-list li a {
+    color: #faa;
+  }
     .page-content {
         margin: 30px auto;
     }
