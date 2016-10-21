@@ -16,12 +16,13 @@ html,body {
 }
 
 .nav {
-	color: #707070;
-	text-transform: uppercase;
+    color: #707070;
+    text-transform: uppercase;
     font-size: 16px;
+    margin: 0 auto;
     font-weight: 600;
+    width: 370px;
     font-family: "Microsoft Yahei";
-    display:inline;
 }
 
 .nav li {
@@ -75,14 +76,6 @@ li {
     opacity: 1;
     color: #FFF;
 }
-
-.description {
-    padding-top: 10px;
-    font-size: 12px;
-    line-height: 1.5em;
-    color: #EEE;
-}
-
 .social-links {
     padding-top: 10px;
 	margin-left: 0px;
@@ -195,7 +188,7 @@ li {
     bottom: 20px;    
     padding: 5px 15px;    
     font-size: 20px;
-    background: #515865;
+    background: #f66;
     color: white;
     cursor: pointer;
 }
