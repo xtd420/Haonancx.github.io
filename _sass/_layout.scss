@@ -109,6 +109,9 @@ a:hover {
 .post-content{
     margin: 30px auto;
 }
+.post-content p{
+    margin:5px 0;
+}
 .post-list {
     list-style: none;
 }
@@ -191,4 +194,7 @@ a:hover {
     .page-content {
         margin: 30px auto;
     }
+    .post-title {
+    font-size: 20px;
+}
 }
