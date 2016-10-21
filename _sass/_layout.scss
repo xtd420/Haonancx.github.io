@@ -133,9 +133,17 @@ li {
     list-style: none;
     color: #aaa;
 }
+.well ul li span{
+
+display:inline-block;
+width:100%;
+
+}
 .well ul a {
     font-size: 20px;
     padding-left: 20px;
+    display:inline-block;
+    width:100%;
     letter-spacing: 1px;
 }
 .well ul a:hover {
