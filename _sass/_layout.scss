@@ -95,13 +95,19 @@ a:hover {
 }
 .post-meta {
     font-size: 12px;
-    margin-left: 0;
+    margin: 10px 0;
     color: #666;
 }
 .content {
     font-size: 14px;
     margin-top: 20px;
     color: #666;
+}
+.post-title{
+    color:#f66;
+}
+.post-content{
+    margin: 30px auto;
 }
 .post-list {
     list-style: none;
