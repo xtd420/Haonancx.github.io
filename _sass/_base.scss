@@ -23,20 +23,6 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
-
-// /**
-//  * Set `margin-bottom` to maintain vertical rhythm
-//  */
-// h1, h2, h3, h4, h5, h6,
-// p, blockquote, pre,
-// ul, ol, dl, figure,
-// %vertical-rhythm {
-//     margin-bottom: $spacing-unit / 2;
-// }
-
-
-
 /**
  * Images
  */
@@ -58,14 +44,6 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
 
 li {
     > ul,
@@ -168,8 +146,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
-
 
 /**
  * Clearfix
