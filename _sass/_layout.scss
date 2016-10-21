@@ -96,7 +96,6 @@ li {
     margin-left: 0;
     color: #666;
 }
-
 .content {
     font-size: 14px;
     margin-top: 20px;
@@ -133,15 +132,15 @@ li {
     list-style: none;
     color: #aaa;
 }
-.well ul li span{
-display:inline-block;
-width:100%;
-margin-bottom: 10px;
+.well ul li span {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .well ul a {
     font-size: 20px;
-    display:inline-block;
-    width:100%;
+    display: inline-block;
+    width: 100%;
     letter-spacing: 1px;
 }
 .well ul a:hover {
@@ -155,13 +154,10 @@ margin-bottom: 10px;
     font-weight: bold;
 }
 /**
- * About
- */
-/**
  * Footer
  */
 .footer {
-    font-size: 11px;
+    font-size: 12px;
     width: 80%;
     margin: 0 auto 30px;
     text-align: center;
