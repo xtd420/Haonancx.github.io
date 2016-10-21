@@ -14,7 +14,14 @@ html,body {
     max-width: 700px;
     margin: 0px auto;
 }
-
+.MainIndex{
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 28px;
+}
+.MainIndex a{
+    color: #F66;
+}
 .nav {
     color: #707070;
     text-transform: uppercase;

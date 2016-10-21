@@ -1,5 +1,7 @@
 <header class="header">
 	<div class="header-container">
+	{% if page.path == "index.html" %}
+	   <div class="MainIndex"><a href="/index.html">FSX</a></div>
 		<div class="nav">
 			{% if page.path == "index.html" %}
 			<span class="title">
