@@ -67,7 +67,7 @@ li {
 }
 
 .title li a {
-    color: #FFF;
+border-bottom: 2px solid #f66;
 }
 
 .title li a:link {
@@ -78,11 +78,11 @@ li {
     opacity: 1;
     transition: all 0.15s linear 0s;
     text-decoration: none;
+    border-bottom: 2px solid #f66;
 }
 
 .title li a:hover {
-    opacity: 1;
-    color: #FFF;
+    border-bottom: 2px solid #f66;
 }
 .social-links {
     padding-top: 10px;
