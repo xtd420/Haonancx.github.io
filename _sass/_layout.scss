@@ -1,7 +1,9 @@
 html,body {
 	-moz-osx-font-smoothing: grayscale;
 }
-
+a:hover{
+        text-decoration: none;
+}
 /**
  * Header
  */
@@ -147,11 +149,13 @@ border-bottom: 2px solid #f66;
 }
 
 .well ul a {
-    text-decoration: underline;
+   font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .well ul a:hover {
-	color: #000;
+
+	 color: #F66; 
 }
 
 /**
