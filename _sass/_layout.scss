@@ -22,6 +22,7 @@ html,body {
 }
 .MainIndex a{
     color: #F66;
+    font-family:inherit;
 }
 .nav {
     color: #707070;
@@ -51,13 +52,13 @@ li {
 .nav a:link {
     opacity: 1;
     transition: all 0.15s linear 0s;
-    text-decoration: none;
+    border-bottom: 2px solid #f66;
 }
 
 .nav li a:visited {
     opacity: 1;
     transition: all 0.15s linear 0s;
-    text-decoration: none;
+    border-bottom: 2px solid #f66;
 }
 
 .nav li a:hover {
