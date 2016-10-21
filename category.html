@@ -1,7 +1,27 @@
 ---
 layout: default
 ---
+<style type="text/css">
+h1,h2,h3,h4,h4,h6 {
+    font-size: 30px;
+    padding: 30px 0;
+    color: #f66;
+}
+ul{
+    margin:0;
+    padding: 0; 
+}
 
+@media screen and (max-width: 420px) {
+h1,h2,h3,h4,h4,h6 {
+    font-size: 30px;
+    padding: 15px 0;
+    color: #f66;
+}
+
+}
+
+</style> 
 <div class="well">
 {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign category = categories | split:',' | sort %}
@@ -10,7 +30,7 @@ layout: default
 <h2 class="category" id="{{ word }}">{{ word }}</h2>
 <ul>
 {% for post in site.categories[word] %}{% if post.title != null %}
-<li><span>{{ post.date | date: "%b %d" }}</span>» <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+<li><span>{{ post.date | date: "%Y %b %d" }}</span><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 {% endif %}{% endfor %}
 </ul>
 {% endunless %}{% endfor %}
