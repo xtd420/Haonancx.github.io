@@ -123,9 +123,12 @@ border-bottom: 2px solid #f66;
 }
 
 .post-list li a {
-	color: #000;	
+	color: #2c3e50;	
 }
-
+.post-list li a:hover {
+    text-decoration: none;
+    color: #F66; 
+}
 #line {
 	opacity: 0.1;
 	color: #000;
