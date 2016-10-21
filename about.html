@@ -1,50 +1,143 @@
----
-layout: default
----
-
+--- layout: default ---
+<style type="text/css">
+	h2,
+	p {
+		color: #666;
+		font-family: "Microsoft Yahei";
+		padding: 15px 0;
+		line-height: 30px;
+		letter-spacing: 1px;
+	}
+	
+	.about-main {
+		max-width: 600px;
+		margin: 50px auto 0;
+		padding: 0 30px 50px;
+		position: relative;
+	}
+	
+	.aboutItem {
+		padding: 30px 0;
+		text-align: center;
+	}
+	
+	.aboutItem p {
+		font-size: 16px;
+	}
+	
+	.actorimg {
+		display: inline-block;
+		width: 90px;
+		height: 90px;
+		border-radius: 100%;
+		overflow: hidden;
+	}
+	
+	.aboutItem h1 {
+		padding: 20px 0;
+		font-size: 30px;
+		color: #f66;
+		font-family: "Microsoft Yahei";
+	}
+	
+	.aboutContact,
+	.aboutMe,
+	.Hobby,
+	.Work {
+		font-size: 22px;
+	}
+	
+	.aboutContact h2:before,
+	.aboutMe h2:before,
+	.Hobby h2:before,
+	.Work h2:before {
+		content: "#";
+		color: #F66;
+		position: absolute;
+		margin: 1px 0 0 -17px;
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+	
+	.motto {
+		font-size: 20px;
+		color: #f66;
+	}
+	
+	.aboutMe blockquote,
+	.Hobby blockquote,
+	.aboutContact blockquote,
+	.Work blockquote {
+		margin: 2em 0;
+		padding-left: 20px;
+		border-left: 4px solid #F66;
+	}
+	
+	.Hobby blockquote p,
+	.aboutContact p,
+	.aboutMe p,
+	.Work p {
+		font-size: 16px;
+	}
+	
+	@media screen and (max-width: 420px) {
+		.about-main {
+			max-width: 600px;
+			margin: 50px auto 0;
+			padding: 0 20px 50px;
+			position: relative;
+		}
+		.aboutContact h2:before,
+		.aboutMe h2:before,
+		.Hobby h2:before,
+		.Work h2:before {
+			margin: -2px 0 0 -16px;
+		}
+	}
+</style>
 <div class="about">
-<div class="about-main">
-<div class="aboutItem">
-<span class="actorimg"><img src="images/me.png" alt=""></span>
-<h1>大家好!</h1>
-<p>我是一名傲娇的程序猿</p>
-<p>终于迎来自己的个人博客！！！</p>
-</div>
-<div class="aboutMe">
-<h2>关于我</h2>
-<blockquote>
-<p class="motto">座右铭:不想当架构师的前端不是好的设计师！</p>
-<p>规范化流程工作</p>
-<p class="motto">关注前沿技术</p>
-<p>性格开朗、乐于助人</p>
-<p class="motto">我会经常在这个博客里向大家推荐高质量的技术贴,也会有自己的工作总结</p>
-</blockquote>
-</div>
-<div class="Work">
-<h2>工作技能</h2>
-<blockquote>
-<p>Vue.js</p>
-<p>Angular.js</p>
-<p></p>
-</blockquote>
-</div>
-<div class="Hobby">
-<h2>兴趣爱好</h2>
-<blockquote>
-<p>日本料理、涮羊肉</p>
-<p class="motto">旅行(日本,希腊,北欧等)</p>
-<p>音乐(经典、乡村)</p>
-<p class="motto">羽毛球、排球、做饭</p>
-<p>有望去一趟Facebook总部,毕竟那是全栈工程师的最高殿堂！</p>
-</blockquote>
-</div>
-<div class="aboutContact">
-<h2>联系方式</h2>
-<blockquote>
-<p>目前就职于大数据公司,担任前端方面的工作.</p>
-<p class="motto">欢迎大家和我交流技术,更希望向业内大牛学习.</p>
-<p>邮箱:haonancx@outlook.com</p>
-<p>QQ:774723686</p>
-</blockquote>
-</div>
-</div>
+	<div class="about-main">
+		<div class="aboutItem">
+			<span class="actorimg"><img src="images/me.png" alt=""></span>
+			<h1>大家好!</h1>
+			<p>我是一名傲娇的程序猿</p>
+			<p>终于迎来自己的个人博客！！！</p>
+		</div>
+		<div class="aboutMe">
+			<h2>关于我</h2>
+			<blockquote>
+				<p class="motto">座右铭:不想当架构师的前端不是好的设计师！</p>
+				<p>规范化流程工作</p>
+				<p class="motto">关注前沿技术</p>
+				<p>性格开朗、乐于助人</p>
+				<p class="motto">我会经常在这个博客里向大家推荐高质量的技术贴,也会有自己的工作总结</p>
+			</blockquote>
+		</div>
+		<div class="Work">
+			<h2>工作技能</h2>
+			<blockquote>
+				<p>Vue.js</p>
+				<p>Angular.js</p>
+				<p></p>
+			</blockquote>
+		</div>
+		<div class="Hobby">
+			<h2>兴趣爱好</h2>
+			<blockquote>
+				<p>日本料理、涮羊肉</p>
+				<p class="motto">旅行(日本,希腊,北欧等)</p>
+				<p>音乐(经典、乡村)</p>
+				<p class="motto">羽毛球、排球、做饭</p>
+				<p>有望去一趟Facebook总部,毕竟那是全栈工程师的最高殿堂！</p>
+			</blockquote>
+		</div>
+		<div class="aboutContact">
+			<h2>联系方式</h2>
+			<blockquote>
+				<p>目前就职于大数据公司,担任前端方面的工作.</p>
+				<p class="motto">欢迎大家和我交流技术,更希望向业内大牛学习.</p>
+				<p>邮箱:haonancx@outlook.com</p>
+				<p>QQ:774723686</p>
+			</blockquote>
+		</div>
+	</div>

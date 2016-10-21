@@ -185,9 +185,12 @@ li {
 #gotop {
     position: fixed;
     right: 20px;
-    bottom: 20px;    
-    padding: 5px 15px;    
-    font-size: 20px;
+    bottom: 20px;
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 48px;
+    text-align: center;
     background: #f66;
     color: white;
     cursor: pointer;
