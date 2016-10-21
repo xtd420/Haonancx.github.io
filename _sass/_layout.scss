@@ -116,6 +116,9 @@ a:hover {
 .post-list {
     list-style: none;
 }
+.post-list li{
+    margin: 20px auto;
+}
 .post-list li h3 {
     font-weight: 500px;
     margin-bottom: 5px;
@@ -192,7 +195,7 @@ a:hover {
 /** Adapt to multiple devices */
 @media screen and (max-width: 420px) {
     .nav li {
-        margin: 0 8px;
+        margin: 0 9px;
     }
     .post-list li a {
     color: #faa;
