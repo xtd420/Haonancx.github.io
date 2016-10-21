@@ -192,12 +192,12 @@ a:hover {
     background: #f66;
 }
 
-
 /** Adapt to multiple devices */
 @media screen and (max-width: 420px) {
    .header {
     margin-top: 10px;
 }
+
     .nav li {
         margin: 0 9px;
     }
