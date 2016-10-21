@@ -3,7 +3,7 @@ layout: default
 ---
 
 <style type="text/css">
-h1,h2,h3,h4,h4,h6 {
+h1 {
     font-size: 30px;
     padding: 30px 0;
     color: #f66;
@@ -14,7 +14,7 @@ ul{
 }
 
 @media screen and (max-width: 420px) {
-h1,h2,h3,h4,h4,h6 {
+h1{
     font-size: 30px;
     padding: 15px 0;
     color: #f66;
@@ -29,7 +29,7 @@ h1,h2,h3,h4,h4,h6 {
 <div class="well">
 {%for post in site.posts %}
     {% unless post.next %}
-        <h2>{{ post.date | date: '%Y' }}</h2>
+        <h1>{{ post.date | date: '%Y' }}</h1>
         <ul>
     {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
