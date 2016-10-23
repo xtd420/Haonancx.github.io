@@ -26,7 +26,7 @@ $blue-color:	   #515865;
 $content-width:    800px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        600px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
