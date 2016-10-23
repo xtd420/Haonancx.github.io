@@ -111,6 +111,14 @@ a:hover {
 .post-content{
     margin: 30px auto;
 }
+.post-content h3:before {
+    content: "#";
+    color: #F66;
+    position: absolute;
+    margin: 0px 0 0 -22px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
 .post-content p{
     margin:5px 0;
 }
