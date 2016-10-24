@@ -111,6 +111,9 @@ a:hover {
 .post-content{
     margin: 30px auto;
 }
+.post-content h2,.post-content h3,.post-content h4{
+    font-weight: bold;
+}
 .post-content h3:before {
     content: "#";
     color: #F66;
