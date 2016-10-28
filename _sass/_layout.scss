@@ -111,6 +111,7 @@ a:hover {
 .post-content{
     margin: 30px auto;
     border-bottom: 1px solid #e6e6e6;
+    padding: 0 0 40px;
 }
 .post-content h2,.post-content h3,.post-content h4{
     font-weight: bold;
@@ -130,7 +131,7 @@ a:hover {
     color: #f66;
 }
 .post-content p a:hover{
-    border-bottom:1px solid #f66;
+    border-bottom:2px solid #f66;
 }
 .post-content ul li {
     position: relative;
