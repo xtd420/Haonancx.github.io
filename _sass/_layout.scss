@@ -127,6 +127,12 @@ a:hover {
 .post-content p{
     margin:5px 0;
 }
+.post-content blockquote p {
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.8em;
+    color: #999;
+}
 .post-content p a{
     color: #f66;
 }
