@@ -20,7 +20,7 @@ categories: Jquery 兼容问题 每周更新
 
 ![jquery-input-placeholder-2](http://i.imgur.com/u7NVU8M.jpg)
 
-##### 当鼠标离开时（onblur）为其添加文字。 #####
+ 当鼠标离开时（onblur）为其添加文字。
 
 ![jquery-input-placeholder-1](http://i.imgur.com/Pc9heDY.jpg) 
 

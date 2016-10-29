@@ -140,7 +140,9 @@ a:hover {
     border-bottom: 1px solid #e6e6e6;
     padding: 0 0 40px;
 }
-
+.post-content {
+    text-indent: 32px;
+}
 .post-content h2,
 .post-content h3,
 .post-content h4 {
@@ -182,11 +184,11 @@ a:hover {
     color: #999;
 }
 
-.post-content p a {
+.post-content a {
     color: #f66;
 }
 
-.post-content p a:hover {
+.post-content a:hover {
     border-bottom: 2px solid #f66;
 }
 
