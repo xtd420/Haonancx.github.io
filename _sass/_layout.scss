@@ -2,32 +2,41 @@ html,
 body {
     -moz-osx-font-smoothing: grayscale;
 }
+
 a:hover {
     text-decoration: none;
 }
+
+
 /**
  * Header
  */
+
 .header {
     margin-top: 50px;
 }
+
 .header-container {
     max-width: 700px;
     margin: 0 auto;
 }
+
 .MainIndex {
     font-size: 28px;
     margin: 50px 0;
     text-align: center;
     letter-spacing: 5px;
 }
+
 .MainIndex span {
     font-family: inherit;
     color: #f66;
 }
+
 .MainIndex a:hover {
     border: 0;
 }
+
 .nav {
     font-family: 'Microsoft Yahei';
     font-size: 16px;
@@ -36,87 +45,109 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
 }
+
 .nav li {
     line-height: 1;
     display: inline-block;
     margin: 15px 30px 10px;
 }
+
 .well ul li {
     line-height: 1.7em;
     margin-left: 0;
     padding: 20px 0;
     border-bottom: 1px solid #ededed;
 }
+
 .nav a {
     color: #666;
 }
+
 .nav li a:visited {
     transition: all 0.15s linear 0s;
     border-bottom: 2px solid #f66;
 }
+
 .nav li a:hover {
     cursor: pointer;
     text-decoration: none;
     border-bottom: 2px solid #f66;
 }
+
 .title li a {
     border-bottom: 2px solid #f66;
 }
+
 .title li a:visited {
     transition: all 0.15s linear 0s;
     text-decoration: none;
     opacity: 1;
     border-bottom: 2px solid #f66;
 }
+
 .title li a:hover {
     border-bottom: 2px solid #f66;
 }
+
 .social-links {
     margin: 70px 0 0;
     text-align: center;
 }
+
 .social-links li {
     line-height: 0;
     display: inline;
 }
+
 .social-links a {
     color: #2c3e50;
 }
+
 .social-links a:active {
     opacity: 0.6;
 }
+
 .social-links a:hover {
     opacity: 0.6;
 }
+
 .page-content {
     height: 100%;
     min-height: 100%;
     margin: 60px auto;
 }
+
 .post-meta {
     font-size: 15px;
     margin: 10px 0;
     display: inline-block;
     color: #666;
 }
+
 .content {
     font-size: 14px;
     margin: 20px auto;
     color: #666;
 }
-.post-title{
-    color:#f66;
+
+.post-title {
+    color: #f66;
     font-size: 25px;
 }
-.post-content{
+
+.post-content {
     margin: 30px auto;
     border-bottom: 1px solid #e6e6e6;
     padding: 0 0 40px;
 }
-.post-content h2,.post-content h3,.post-content h4{
+
+.post-content h2,
+.post-content h3,
+.post-content h4 {
     font-weight: bold;
 }
-.post-content h3{
+
+.post-content h3 {
     font-size: 17px;
     margin: 40px 0;
 }
@@ -125,102 +156,123 @@ a:hover {
     content: "#";
     color: #F66;
     position: absolute;
-    margin: -7px 0 0 -22px;
+    margin: -5px 0 0 -22px;
     font-size: 1.5em;
     font-weight: bold;
 }
-.post-content h5{
+
+.post-content h5 {
     font-size: 15px;
+    color: #42b983;
 }
+
 .post-content h5:before {
     content: "*";
     color: #42b983;
     position: absolute;
-    margin: -7px 0 0 -22px;
+    margin: -2px 0 0 -22px;
     font-size: 1.5em;
     font-weight: bold;
 }
-.post-content p{
-    margin:5px 0;
-}
+
 .post-content blockquote p {
     font-size: 17px;
     font-style: italic;
     line-height: 1.8em;
     color: #999;
 }
-.post-content p a{
+
+.post-content p a {
     color: #f66;
 }
-.post-content p a:hover{
-    border-bottom:2px solid #f66;
+
+.post-content p a:hover {
+    border-bottom: 2px solid #f66;
 }
+
 .post-content ul li {
     position: relative;
     padding: 30px 0;
-    list-style-type:none;
+    list-style-type: none;
     border-bottom: 1px solid #e6e6e6;
 }
 
 .post-list {
     list-style: none;
 }
-.post-list li{
+
+.post-list li {
     margin: 20px auto;
-    border-bottom:1px solid #ededed;
+    border-bottom: 1px solid #ededed;
 }
+
 .post-list li h3 {
     font-weight: 500px;
     margin-bottom: 5px;
 }
+
 .post-list li a {
     color: #2c3e50;
     font-size: 20px;
     letter-spacing: 1px;
 }
+
 .post-list li a:hover {
     text-decoration: none;
     color: #f66;
 }
+
 #line {
     opacity: 0.1;
     color: #000;
 }
+
+
 /**
  * Artist
  */
+
 .well {
     color: #2c3e50;
 }
-.well ul {
 
+.well ul {
     list-style: none;
     color: #aaa;
 }
+
 .well ul li span {
     font-size: 14px;
     display: inline-block;
     width: 100%;
     margin-bottom: 10px;
 }
+
 .well ul a {
     font-size: 20px;
     display: inline-block;
     letter-spacing: 1px;
 }
+
 .well ul a:hover {
     color: #f66;
 }
+
+
 /**
  * Category
  */
+
 .category-box {
     font-size: 16px;
     font-weight: bold;
 }
+
+
 /**
  * Footer
  */
+
 .footer {
     font-size: 12px;
     width: 80%;
@@ -228,6 +280,7 @@ a:hover {
     text-align: center;
     color: #888;
 }
+
 #gotop {
     font-size: 35px;
     line-height: 48px;
@@ -242,24 +295,23 @@ a:hover {
     background: #f66;
 }
 
+
 /** Adapt to multiple devices */
+
 @media screen and (max-width: 420px) {
     .header {
-    margin-top: 20px;
+        margin-top: 20px;
     }
     .MainIndex {
         margin: 30px 0 50px;
-
     }
     .nav li {
         margin: 0 9px;
     }
     .post-list li a {
-    color: #faa;
-  }
+        color: #faa;
+    }
     .post-title {
-    font-size: 20px;
+        font-size: 20px;
+    }
 }
-}
-
-

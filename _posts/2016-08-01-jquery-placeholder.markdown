@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "浅谈工作中 JQuery placeholder"
+title:  "解决工作中的表单 placeholder 兼容问题"
 date:   2016-08-01 13:23:32
-categories: Jquery 每周更新
+categories: Jquery 兼容问题 每周更新
 ---
 
 
