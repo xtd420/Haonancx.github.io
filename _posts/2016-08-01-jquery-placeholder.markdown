@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "浅谈JQuery"
+title:  "浅谈工作中 JQuery placeholder"
 date:   2016-08-01 13:23:32
 categories: Jquery 每周更新
 ---
 
 
 ####本篇文章主要介绍了使用jQuery解决日常工作中的一些小问题。####
+
+你身为一名前端，或者你即将走向前端之路，如果你没有听过大名鼎鼎的 Jquery,那么你将是不合格的一名前端工程师，虽然现在前端领域各式各样的框架引人注目，甚至大部分人对 Jquery 嗤之以鼻，但是，纵观前端领域，优质的前端屈指可数；所以本文针对合适的人解决合理的事情。
 
 ###众所周知，IE 浏览器在 Web 开发过程中，对于前端工程师来说，无疑是噩梦，特别是IE9以下的版本，这个小节，我们将来讨论如何使用使用 jQuery 快速解决 input 中 placeholder 值在 IE 中无法支持的问题。需要的朋友可以过来参考下，希望对大家有所帮助。###
 
@@ -23,7 +25,7 @@ categories: Jquery 每周更新
 ![jquery-input-placeholder-1](http://i.imgur.com/Pc9heDY.jpg) 
 
 1. 方法一
-
+    
     $(document).ready(function(){
     var doc=document,inputs=doc.getElementsByTagName('input'),supportPlaceholder='placeholder'in doc.createElement('input'),placeholder=function(input){var text=input.getAttribute('placeholder'),defaultValue=input.defaultValue;
     if(defaultValue==''){
