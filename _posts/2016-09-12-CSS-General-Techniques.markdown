@@ -2,5 +2,5 @@
 layout: post
 title:  "CSS"
 date:   2016-09-12 13:23:32
-categories: CSS 每周更新
+categories: CSS
 ---
