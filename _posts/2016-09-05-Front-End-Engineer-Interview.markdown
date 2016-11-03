@@ -8,10 +8,10 @@ categories: 面试 浅谈前端
 
 
 
-
+###
 ![front-end-review](http://i.imgur.com/izFZ6dn.jpg)
 
-
+###
 
 
 ###可是，招人真心难，招前端更难，招个好前端难上加难有木有~~
