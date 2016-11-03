@@ -4,13 +4,11 @@ title:  "关于前端的那些事儿"
 date:   2016-09-05 13:23:32
 categories: 面试 浅谈前端
 ---
-
-![front-end-review](http://i.imgur.com/izFZ6dn.jpg)
-
-
 长话短说，书归正传。
 
 如今将近十年过去了,移动互联网风光依旧，前端更是无处不在。
+
+![front-end-review](http://i.imgur.com/izFZ6dn.jpg)
 
 ###可是，招人真心难，招前端更难，招个好前端难上加难有木有~~
 
