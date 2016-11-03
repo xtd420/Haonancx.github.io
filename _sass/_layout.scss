@@ -212,11 +212,10 @@ a:hover {
 }
 
 .post-list li a {
-    color: #f66;
+    color: #2c3e50;
     font-size: 20px;
     letter-spacing: 1px;
 }
-
 .post-list li a:hover {
     text-decoration: none;
     color: #f66;
@@ -308,7 +307,9 @@ a:hover {
     .nav li {
         margin: 0 9px;
     }
-
+.post-list li a {
+    color: #f66;
+}
     .post-content h3:before {
     margin: -7px 0 0 -22px;
 }
