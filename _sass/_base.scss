@@ -8,11 +8,7 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
-/**
- * Basic styling
- */
+/* Basic styling*/
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -21,21 +17,16 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    text-align: justify;
 }
 
-/**
- * Images
- */
+/* Images*/
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
-
-
-/**
- * Figures
- */
+/* Figures */
 figure > img {
     display: block;
 }
@@ -52,20 +43,12 @@ li {
     }
 }
 
-
-
-/**
- * Headings
- */
+/* Headings*/
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-
-
-/**
- * Links
- */
+/* Links*/
 a {
     color: $brand-color;
     text-decoration: none;
@@ -80,11 +63,7 @@ a {
     }
 }
 
-
-
-/**
- * Blockquotes
- */
+/* Blockquotes*/
 blockquote {
     border-left: 4px solid $grey-color;
     padding-left: $spacing-unit / 2;
@@ -96,11 +75,7 @@ blockquote {
     }
 }
 
-
-
-/**
- * Code formatting
- */
+/* Code formatting */
 pre,
 code {
     font-size: 15px;
@@ -126,9 +101,7 @@ pre {
 }
 
 
-/**
- * Wrapper
- */
+/*Wrapper*/
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -146,9 +119,7 @@ pre {
     }
 }
 
-/**
- * Clearfix
- */
+/* Clearfix*/
 %clearfix {
 
     &:after {
@@ -158,9 +129,7 @@ pre {
     }
 }
 
-/**
- * Icons
- */
+/* Icons*/
 .icon {
 
     > svg {
