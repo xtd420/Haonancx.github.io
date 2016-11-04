@@ -6,12 +6,7 @@ body {
 a:hover {
     text-decoration: none;
 }
-
-
-/**
- * Header
- */
-
+/* Header*/
 .header {
     margin-top: 50px;
 }
@@ -73,11 +68,9 @@ a:hover {
     text-decoration: none;
     border-bottom: 2px solid #f66;
 }
-
 .title li a {
     border-bottom: 2px solid #f66;
 }
-
 .title li a:visited {
     transition: all 0.15s linear 0s;
     text-decoration: none;
@@ -87,35 +80,28 @@ a:hover {
 .title li a:hover {
     border-bottom: 2px solid #f66;
 }
-
 .social-links {
     margin: 70px 0 0;
     text-align: center;
 }
-
 .social-links li {
     line-height: 0;
     display: inline;
 }
-
 .social-links a {
     color: #2c3e50;
 }
-
 .social-links a:active {
     opacity: 0.6;
 }
-
 .social-links a:hover {
     opacity: 0.6;
 }
-
 .page-content {
     height: 100%;
     min-height: 100%;
     margin: 60px auto 40px;
 }
-
 .post-meta {
     font-size: 15px;
     margin: 10px 0;
@@ -127,12 +113,10 @@ a:hover {
     margin: 20px auto;
     color: #666;
 }
-
 .post-title {
     color: #f66;
     font-size: 25px;
 }
-
 .post-content {
     margin: 30px auto;
     border-bottom: 1px solid #e6e6e6;
@@ -143,7 +127,6 @@ a:hover {
 .post-content h4 {
     font-weight: bold;
 }
-
 .post-content h3 {
     font-size: 17px;
     margin: 40px 0;
@@ -175,14 +158,12 @@ a:hover {
     font-size: 1.5em;
     font-weight: bold;
 }
-
 .post-content blockquote p {
     font-size: 17px;
     font-style: italic;
     line-height: 1.8em;
     color: #999;
 }
-
 .post-content a {
     color: #f66;
 }
@@ -190,14 +171,12 @@ a:hover {
 .post-content a:hover {
     border-bottom: 2px solid #f66;
 }
-
 .post-content ul li {
     position: relative;
     padding: 30px 0;
     list-style-type: none;
     border-bottom: 1px solid #e6e6e6;
 }
-
 .post-list {
     list-style: none;
 }
@@ -224,12 +203,7 @@ a:hover {
     opacity: 0.1;
     color: #000;
 }
-
-
-/**
- * Artist
- */
-
+/* Artist*/
 .well {
     color: #2c3e50;
 }
@@ -251,26 +225,16 @@ a:hover {
     display: inline-block;
     letter-spacing: 1px;
 }
-
 .well ul a:hover {
     color: #f66;
 }
-
-
-/**
- * Category
- */
-
+/* Category*/
 .category-box {
     font-size: 16px;
     font-weight: bold;
 }
 
-
-/**
- * Footer
- */
-
+/* Footer*/
 .footer {
     font-size: 12px;
     width: 80%;
@@ -278,7 +242,6 @@ a:hover {
     text-align: center;
     color: #888;
 }
-
 #gotop {
     font-size: 35px;
     line-height: 48px;
@@ -292,10 +255,7 @@ a:hover {
     color: #FFF;
     background: #f66;
 }
-
-
 /** Adapt to multiple devices */
-
 @media screen and (max-width: 420px) {
     .header {
         margin-top: 20px;
@@ -306,9 +266,6 @@ a:hover {
     .nav li {
         margin: 0 9px;
     }
-.post-list li a {
-    color: #f66;
-}
     .post-content h3:before {
     margin: -7px 0 0 -22px;
 }
