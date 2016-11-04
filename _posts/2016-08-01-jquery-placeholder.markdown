@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "解决工作中的表单 placeholder 兼容问题"
+title:  "解决 IE9 的表单 placeholder 兼容问题"
 date:   2016-08-01 13:23:32
 categories: Jquery 兼容问题
 ---
