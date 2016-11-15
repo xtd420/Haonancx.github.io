@@ -12,7 +12,7 @@ github_username:  Haonancx
 markdown: redcarpet
 redcarpet:
     extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
-
+    
 # 分页
 permalink: /:year/:month/:day/:title.html
 paginate: 1
