@@ -3,7 +3,7 @@ title: FSX By GRC
 motto: 
 email: haonancx@outlook.com
 description: 关人潮前端工程师个人博客
-baseurl: "/docs" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://haonancx.github.io/" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  Haonancx
@@ -12,7 +12,7 @@ github_username:  Haonancx
 markdown: redcarpet
 redcarpet:
     extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
-    
+
 # 分页
 permalink: /:year/:month/:day/:title.html
 paginate: 1
