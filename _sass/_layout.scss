@@ -177,11 +177,14 @@ a:hover {
     list-style-type: none;
 }
 .post-content ul li:before{
-  content:"";
-  height:15px;
-  width:15px;
-  border-radius:100%;
-  backgroung-color: #f66;
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    background: #f66;
+    margin: 7px 0 0 -20px;
 }
 .post-list {
     list-style: none;
