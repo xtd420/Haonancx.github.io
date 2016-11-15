@@ -5,11 +5,11 @@ date:   2016-08-22 13:23:32
 categories: 浅谈前端
 ---
 
+####什么是前端工程师？总而言之,就是运用HTML、CSS、JavaScript等Web技术，在工作中配合UI设计师实现用户界面，和后端工程师进行数据对接，完成Web应用开发的职位。
+
 
 ![ Front-End-Engineer-1](http://i.imgur.com/Ah4F1EL.jpg)
 
-
-####什么是前端工程师？总而言之,就是运用HTML、CSS、JavaScript等Web技术，在工作中配合UI设计师实现用户界面，和后端工程师进行数据对接，完成Web应用开发的职位。
 
 
 ###先来个下马威
