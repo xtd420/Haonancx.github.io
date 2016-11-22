@@ -163,9 +163,11 @@ outline:none;
 .post-content a {
     color: #f66;
 }
-
+.ds-powered-by{
+    display:none;
+}
 .post-content a:hover {
-    border-bottom: 2px solid #26a9ff;
+    border-bottom: 2px solid #f66;
 }
 .post-content ul li {
     position: relative;
