@@ -9,6 +9,7 @@ width: 100%;
 top: 0;
 left: 0;
 right: 0;    
+height: 55px;
 }
 a:hover {
     text-decoration: none;
@@ -17,6 +18,7 @@ a:hover {
 .header-container {
     max-width: 700px;
     margin: 0 auto;
+    height: 55px;
 }
 
 .MainIndex {
@@ -24,17 +26,18 @@ a:hover {
     text-align: center;
     letter-spacing: 5px;
     float: left;
+    line-height: 55px;
 }
 
 .MainIndex a {
     font-family: inherit;
     color: #f66;
+    line-height: 55px;
 }
 
 .MainIndex a:hover {
     border: 0;
 }
-
 .nav {
     font-family: 'Microsoft Yahei';
     font-size: 16px;
@@ -42,17 +45,20 @@ a:hover {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    float: right;
+    height: 55px;
 }
-
 .nav li {
-    line-height: 1;
     display: inline-block;
-    margin: 15px 30px 10px;
+    margin: 0 30px;
+    height: 55px;
+    line-height: 55px;
 }
 
 
 .nav a {
     color: #FFF;
+    display: inline-block;
 }
 
 .nav li a:visited {
