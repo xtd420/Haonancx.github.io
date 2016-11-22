@@ -3,6 +3,7 @@ layout: post
 title:  "如何合理的规划前端之路"
 date:   2016-08-15 13:23:32
 categories: 浅谈前端
+tags: 浅谈前端
 ---
 ####什么是前端工程师？总而言之,就是运用HTML、CSS、JavaScript等Web技术，在工作中配合UI设计师实现用户界面，和后端工程师进行数据对接，完成Web应用开发的职位。
 
