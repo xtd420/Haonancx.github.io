@@ -136,7 +136,7 @@ outline:none;
 }
 .post-content h3:before {
     content: "#";
-    color: #26a9ff;
+    color: #f66;
     position: absolute;
     margin: -5px 0 0 -22px;
     font-size: 1.5em;
@@ -161,7 +161,7 @@ outline:none;
     color: #999;
 }
 .post-content a {
-    color: #26a9ff;
+    color: #f66;
 }
 
 .post-content a:hover {
@@ -179,7 +179,7 @@ outline:none;
     border-radius: 100%;
     display: inline-block;
     position: absolute;
-    background: #26a9ff;
+    background: #f66;
     margin: 7px 0 0 -20px;
 }
 .post-list {
