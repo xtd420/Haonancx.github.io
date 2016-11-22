@@ -37,7 +37,7 @@ h2{
         {% endif %}
     {% endunless %}
     <li>
-<a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a><p><span>{{ post.date | date: "%Y %b %d" }}</span></p>
+<a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a><p><span>{{ post.date | date: "%Y-%m-%d" }}</span></p>
         <p>{% for tag in post.tags %}<span class="octicon octicon-tag">{{ tag }}</span>{% endfor %}</p>
     </li>
 
