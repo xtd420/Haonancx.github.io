@@ -17,10 +17,10 @@ $(function(){
     });
     var screenWidth=$(window).width();
     if(screenWidth <= 430){
-        $(".menuClick").css("display","block");
+        $(".navbar-toggle").css("display","block");
         console.log("block")
     }else{
-        $(".menuClick").css("display","none");
+        $(".navbar-toggle").css("display","none");
         console.log("none")
     }
 });
