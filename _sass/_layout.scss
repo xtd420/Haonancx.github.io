@@ -2,7 +2,14 @@ html,
 body {
     -moz-osx-font-smoothing: grayscale;
 }
-
+.header{
+background-image: linear-gradient(to right,#207ce5 0,#26a9ff 100%);
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+right: 0;    
+}
 a:hover {
     text-decoration: none;
 }
