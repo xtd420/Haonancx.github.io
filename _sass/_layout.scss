@@ -41,6 +41,22 @@ a:hover {
 .MainIndex a:hover {
     border: 0;
 }
+.navbar-toggle {
+    margin: 0;
+    padding: 0;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.icon-bar {
+    background-color: #ffffff;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.icon-bar+.icon-bar {
+    margin-top: 4px;
+}
 .nav {
     font-family: 'Microsoft Yahei';
     font-size: 16px;
