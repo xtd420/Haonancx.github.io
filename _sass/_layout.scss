@@ -230,12 +230,11 @@ a:hover {
 
 .well ul a {
     font-size: 20px;
-    display: block;
+    display: inline-block;
     letter-spacing: 0.2px;
-    width: 100%;
 }
 .well ul li p{
-    margin:5px 0;
+    margin:15px 0;
 }
 .well ul a:hover {
     color: #f66;
