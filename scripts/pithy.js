@@ -16,3 +16,22 @@ $(function(){
         }
     });
 });
+
+
+// 顶部导航随左边菜单栏变化事件
+function ShowMenu() {
+     $(".menu-left-banner").css("width","0px");
+    document.getElementById('menuClick').onclick=function(){
+      HideMenu();
+    }       
+}
+function HideMenu() {
+    document.getElementById('menuClick').onclick=function(){
+        ShowMenu();
+    };
+      $(".menu-left-banner").css("width","190px");
+      $(".header").css("width","calc(100% - 190px)");
+      $(".header").css("left","190px");
+
+}
+// 顶部导航随左边菜单栏变化事件
