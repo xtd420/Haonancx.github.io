@@ -271,7 +271,8 @@ a:hover {
     cursor: pointer;
     text-align: center;
     color: #FFF;
-    background: #f66;
+    opacity:0.8;
+    background: #777;
 }
 /** Adapt to multiple devices */
 @media screen and (max-width: 420px) {
