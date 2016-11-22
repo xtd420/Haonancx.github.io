@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
@@ -9,7 +8,6 @@ layout: default
         <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
-        <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%m" }}</span>
 		<div class="content">
 		{{ post.excerpt }}
