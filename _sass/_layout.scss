@@ -225,14 +225,14 @@ a:hover {
 .well ul li span {
     font-size: 14px;
     display: inline-block;
-    width: 100%;
     margin-top: 10px;
 }
 
 .well ul a {
     font-size: 20px;
-    display: inline-block;
+    display: block;
     letter-spacing: 0.2px;
+    width: 100%;
 }
 .well ul a:hover {
     color: #f66;
@@ -246,11 +246,11 @@ a:hover {
     height: 30px;
     line-height: 30px;
     padding: 0 15px;
-    display: inline-block;
+    display: inline-block!important;
     border-radius: 30px;
     background: #F66;
     color: #fff;
-    font-size: 13px;
+    font-size: 13px!important;
     margin: 0 5px;
 }
 /* Footer*/
