@@ -12,9 +12,9 @@ layout: default
 		<div class="content">
 		{{ post.excerpt }}
         </div>
-                              <p>{% for category in site.categories %}
-                      <span class="octicon octicon-categories"></span>&nbsp;{{ categories }}</a>
-                      {% endfor %}</p>
+    <p>{% for tag in post.tags %}
+    <span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
+    {% endfor %}</p>
       </li>
     {% endfor %}
   </ul>
