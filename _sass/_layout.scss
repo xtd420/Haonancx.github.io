@@ -47,12 +47,6 @@ a:hover {
     margin: 15px 30px 10px;
 }
 
-.well ul li {
-    line-height: 1.7em;
-    margin-left: 0;
-    padding: 20px 0;
-    border-bottom: 1px solid #ededed;
-}
 
 .nav a {
     color: #666;
@@ -222,6 +216,12 @@ a:hover {
     color: #aaa;
 }
 
+.well ul li {
+    line-height: 1.7em;
+    margin-left: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ededed;
+}
 .well ul li span {
     font-size: 14px;
     display: inline-block;
@@ -233,6 +233,9 @@ a:hover {
     display: block;
     letter-spacing: 0.2px;
     width: 100%;
+}
+.well ul li p{
+    margin:5px 0;
 }
 .well ul a:hover {
     color: #f66;
