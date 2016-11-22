@@ -94,8 +94,10 @@ a:hover {
 .page-content {
     height: 100%;
     min-height: 100%;
-    border-bottom: 1px solid #e6e6e6;
     margin: 60px auto 40px;
+}
+#ds-thread{
+     border-bottom: 1px solid #e6e6e6;   
 }
 .post-meta {
     font-size: 15px;
