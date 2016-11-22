@@ -86,25 +86,25 @@ outline:none;
 
 .nav li a:visited {
     transition: all 0.15s linear 0s;
-    border-bottom: 2px solid #f66;
+    border-bottom: 2px solid #26a9ff;
 }
 
 .nav li a:hover {
     cursor: pointer;
     text-decoration: none;
-    border-bottom: 2px solid #f66;
+    border-bottom: 2px solid #26a9ff;
 }
 .title li a {
-    border-bottom: 2px solid #f66;
+    border-bottom: 2px solid #26a9ff;
 }
 .title li a:visited {
     transition: all 0.15s linear 0s;
     text-decoration: none;
     opacity: 1;
-    border-bottom: 2px solid #f66;
+    border-bottom: 2px solid #26a9ff;
 }
 .title li a:hover {
-    border-bottom: 2px solid #f66;
+    border-bottom: 2px solid #26a9ff;
 }
 
 .page-content {
@@ -127,7 +127,7 @@ outline:none;
     color: #666;
 }
 .post-title {
-    color: #f66;
+    color: #26a9ff;
     font-size: 25px;
 }
 .post-content {
@@ -152,7 +152,7 @@ outline:none;
 }
 .post-content h3:before {
     content: "#";
-    color: #F66;
+    color: #26a9ff;
     position: absolute;
     margin: -5px 0 0 -22px;
     font-size: 1.5em;
@@ -177,11 +177,11 @@ outline:none;
     color: #999;
 }
 .post-content a {
-    color: #f66;
+    color: #26a9ff;
 }
 
 .post-content a:hover {
-    border-bottom: 2px solid #f66;
+    border-bottom: 2px solid #26a9ff;
 }
 .post-content ul li {
     position: relative;
@@ -195,7 +195,7 @@ outline:none;
     border-radius: 100%;
     display: inline-block;
     position: absolute;
-    background: #f66;
+    background: #26a9ff;
     margin: 7px 0 0 -20px;
 }
 .post-list {
@@ -217,7 +217,7 @@ outline:none;
 }
 .post-list li a:hover {
     text-decoration: none;
-    color: #f66;
+    color: #26a9ff;
 }
 
 #line {
@@ -250,7 +250,7 @@ outline:none;
     margin:5px 0;
 }
 .well ul a:hover {
-    color: #f66;
+    color: #26a9ff;
 }
 /* Category*/
 .category-box {
