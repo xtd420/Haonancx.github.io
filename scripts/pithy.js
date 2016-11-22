@@ -15,6 +15,12 @@ $(function(){
             $('#gotop').stop().fadeOut("fast");
         }
     });
+    var screenWidth=$(window).width();
+    if(screenWidth <= 430){
+        $(".menuClick").css("display","block");
+    }else{
+        $(".menuClick").css("display","none");
+    }
 });
 
 
