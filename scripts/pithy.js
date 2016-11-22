@@ -18,13 +18,13 @@ $(function(){
     var screenWidth=$(window).width();
     if(screenWidth <= 430){
         $(".menuClick").css("display","block");
+        console.log("block")
     }else{
         $(".menuClick").css("display","none");
+        console.log("none")
     }
 });
 
-
-// 顶部导航随左边菜单栏变化事件
 function ShowMenu() {
      $(".menu-left-banner").css("width","0px");
     document.getElementById('menuClick').onclick=function(){
@@ -40,4 +40,3 @@ function HideMenu() {
       $(".header").css("left","190px");
 
 }
-// 顶部导航随左边菜单栏变化事件
