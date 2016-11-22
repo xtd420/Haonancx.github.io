@@ -28,6 +28,7 @@ a:hover {
     letter-spacing: 5px;
     float: left;
     line-height: 55px;
+    width: 80px;
 }
 
 .MainIndex a {
@@ -274,12 +275,6 @@ a:hover {
 }
 /** Adapt to multiple devices */
 @media screen and (max-width: 420px) {
-    .MainIndex {
-        margin: 30px 0 50px;
-    }
-    .nav li {
-        margin: 0 9px;
-    }
     .post-content h3:before {
     margin: -7px 0 0 -22px;
 }
