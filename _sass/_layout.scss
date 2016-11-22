@@ -30,6 +30,7 @@ a:hover {
     line-height: 55px;
     width: 90px;
     font-weight: 500;
+    position:relative;
 }
 
 .MainIndex a {
@@ -42,13 +43,10 @@ a:hover {
     border: 0;
 }
 .navbar-toggle {
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
-    padding-bottom: 21px;
-    border: 0;
-    background: rgba(255,255,255,0);
-    display:none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
 }
 .navbar-toggle:focus{
 outline:none;
