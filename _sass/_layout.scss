@@ -272,18 +272,7 @@ background: #26a9ff;
 z-index: 999;
 }
 // comment
-.ds-service-list li {
-    height: 28px;
-}
-#ds-reset .ds-service-link {
-    background: none;
-    overflow: hidden;
-    background: none;
-    padding: 5px;
-    border: 1px solid;
-    border-radius: 3px;
-    text-align: center;
-}
+
 /** Adapt to multiple devices */
 @media screen and (max-width: 420px) {
 .post-content h3:before {
