@@ -89,7 +89,7 @@ outline:none;
     background: rgb(67, 180, 255);
 }
 .title li a {
-        background: rgb(67, 180, 255);
+    background: rgb(67, 180, 255);
 }
 .page-content {
     height: 100%;
@@ -266,16 +266,16 @@ outline:none;
 }
 #gotop {
     font-size: 35px;
-    line-height: 56px;
+    line-height: 48px;
     position: fixed;
     right: 20px;
     bottom: 20px;
     width: 45px;
-    height: 45px;
+    height: 40px;
     cursor: pointer;
     text-align: center;
     color: #FFF;
-    opacity:0.8;
+    opacity: 0.8;
     background: #26a9ff;
     z-index: 999;
 }
@@ -289,7 +289,6 @@ outline:none;
     }
     .post-content h5:before {
     margin: -4px 0 0 -55px;
-
 }
 
 }
