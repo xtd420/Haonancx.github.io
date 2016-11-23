@@ -275,21 +275,9 @@ z-index: 999;
 .ds-service-list li {
     height: 28px;
 }
-#ds-reset .ds-service-link{
-
-}
-.theme-next #ds-thread #ds-reset .ds-service-list a {
+#ds-reset .ds-service-link {
     background: none;
-    padding: 5px;
-    border: 1px solid;
-    border-radius: 3px;
-    text-align: center;
-}
-.theme-next #ds-thread #ds-reset .ds-service-list .ds-weixin {
-    color: #00ce0d;
-    border-color: #00ce0d;
-}
-.theme-next #ds-thread #ds-reset .ds-service-list a {
+    overflow: hidden;
     background: none;
     padding: 5px;
     border: 1px solid;
