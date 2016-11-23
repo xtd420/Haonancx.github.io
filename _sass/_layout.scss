@@ -266,12 +266,12 @@ outline:none;
 }
 #gotop {
     font-size: 35px;
-    line-height: 48px;
+    line-height: 55px;
     position: fixed;
     right: 20px;
     bottom: 20px;
     width: 45px;
-    height: 40px;
+    height: 45px;
     cursor: pointer;
     text-align: center;
     color: #FFF;
@@ -290,5 +290,7 @@ outline:none;
     .post-content h5:before {
     margin: -4px 0 0 -55px;
 }
-
+#gotop {
+    font-size: 32px;
+}
 }
