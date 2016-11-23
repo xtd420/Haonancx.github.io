@@ -72,9 +72,12 @@ display:none;
 }
 .nav li {
 display: inline-block;
-margin: 0 10px;
+margin: 0 5px;
 height: 55px;
 line-height: 55px;
+}
+.title{
+display: inline-block;
 }
 .nav a {
 color: #FFF;
