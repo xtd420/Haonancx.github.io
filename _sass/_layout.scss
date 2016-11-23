@@ -37,15 +37,17 @@ font-family:inherit;
 color: #FFF;
 display: inline-block;
 line-height: 55px;
+width: 90px;
 }
 .MainIndex a:hover {
 border: 0;
 }
 .navbar-toggle {
 position: absolute;
-top: 20px;
-right: 20px;
+top: 0;
+right: 0;
 display: none;
+padding: 20px;
 }
 .navbar-toggle:focus{
 outline:none;
