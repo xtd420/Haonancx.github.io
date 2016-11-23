@@ -135,7 +135,7 @@ outline:none;
     content: "#";
     color: #f66;
     position: absolute;
-    margin: -5px 0 0 -22px;
+    margin: -7px 0 0 -25px;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -179,7 +179,7 @@ outline:none;
     display: inline-block;
     position: absolute;
     background: #f66;
-    margin: 7px 0 0 -20px;
+    margin: 9px 0 0 -20px;
 }
 .post-list {
     list-style: none;
@@ -277,6 +277,7 @@ outline:none;
     color: #FFF;
     opacity:0.8;
     background: #26a9ff;
+    z-index: 999;
 }
 /** Adapt to multiple devices */
 @media screen and (max-width: 420px) {
