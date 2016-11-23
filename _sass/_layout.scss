@@ -1,6 +1,7 @@
 html,
 body {
     -moz-osx-font-smoothing: grayscale;
+    font-family: "Vera Sans YuanTi", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 .header{
 background-image: linear-gradient(to right,#207ce5 0,#26a9ff 100%);
@@ -34,7 +35,7 @@ a:hover {
 }
 
 .MainIndex a {
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-family:inherit;
     color: #FFF;
     line-height: 55px;
 }
@@ -62,7 +63,6 @@ outline:none;
     margin-top: 4px;
 }
 .nav {
-    font-family: 'Microsoft Yahei';
     font-size: 16px;
     font-weight: 600;
     margin: 0 auto;
@@ -82,7 +82,7 @@ outline:none;
     color: #FFF;
     display: block;
     padding: 0 10px;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-family:inherit;
 }
 .nav li a:hover {
     cursor: pointer;
