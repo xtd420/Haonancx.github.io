@@ -107,6 +107,9 @@ font-size: 14px;
 margin: 10px auto;
 color: #666;
 }
+.content h4{
+font-size: 15px;
+}
 .post-title {
 color: #2c3e50;
 font-size: 25px;
@@ -247,8 +250,8 @@ display: inline-block!important;
 border-radius: 30px;
 background: #26a9ff;
 color: #fff;
-font-size: 13px!important;
-margin-right: 10px!important;
+font-size: 14px!important;
+margin-right: 5px!important;
 }
 /* Footer*/
 .footer {
@@ -257,6 +260,7 @@ width: 80%;
 margin: 0 auto 30px;
 text-align: center;
 color: #888;
+letter-spacing: 1px;
 }
 #gotop {
 font-size: 35px;
