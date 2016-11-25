@@ -5,7 +5,7 @@ date:   2016-09-12 22:00:32
 categories: 随笔
 tags: 随笔
 ---
-####那时候的夏天，是我们最快乐的时候。
+####那时的夏天，是我们最快乐的时候。
 
 ![Childhood-Memories-1](http://i.imgur.com/PYSUoQs.jpg)
 
