@@ -38,7 +38,7 @@ GITHUB地址：[css3-weather-barometer](https://github.com/Haonancx/css3-weather
 一共7个动画，就把它们都放在一块儿，并成一排吧。
 
 ##### HTML
-
+{% highlight ruby %}
     <div class="container">
     	<div class="sunny"></div> 
     	<div class="cloudy"></div>
@@ -48,7 +48,7 @@ GITHUB地址：[css3-weather-barometer](https://github.com/Haonancx/css3-weather
     	<div class="starry"></div>
     	<div class="stormy"></div>
     </div>
-
+{% endhighlight %}
 
 首先，先让container这个垂直和水平居中，其次，7个晴雨表宽度为了保持一致，先计算100%/7 =14.285714...;约得于14.3%；然后使用线性渐变从左到右绘画出相应的颜色。
 
