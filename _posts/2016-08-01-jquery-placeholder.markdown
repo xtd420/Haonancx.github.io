@@ -26,12 +26,12 @@ tags: Jquery 兼容问题
 ![jquery-input-placeholder-1](http://i.imgur.com/Pc9heDY.jpg) 
 
 ##### 1.解决方法：#####
-
+{% highlight ruby %}
     $(document).ready(function(){var doc=document,inputs=doc.getElementsByTagName('input'),supportPlaceholder='placeholder'in doc.createElement('input'),placeholder=function(input){var text=input.getAttribute('placeholder'),defaultValue=input.defaultValue;if(defaultValue==''){input.value=text}input.onfocus=function(){if(input.value=text){this.value=''}};input.onblur=function(){if(input.value=''){this.value=text}}};if(!supportPlaceholder){for(var i=0,len=inputs.length;i<len;i++){var input=inputs[i],text=input.getAttribute('placeholder');if(input.type==='text'&&text){placeholder(input)}}}});
-
+{% endhighlight %}
 
 ##### 2.解决方法：#####
-    
+{% highlight ruby %}
     $(function(){
     if(!placeholderSupport()){   // 判断浏览器是否支持 placeholder
     $('[placeholder]').focus(function() {
@@ -52,7 +52,7 @@ tags: Jquery 兼容问题
     function placeholderSupport() {
     return 'placeholder' in document.createElement('input');
     }
-
+{% endhighlight %}
 
 ### 其实，即使浏览器在支持 HTML5 placeholder 属性的情况下还是在 表现上有差异的。 ###
 
@@ -69,12 +69,12 @@ tags: Jquery 兼容问题
 
 ##### 解决方法
 
-
+{% highlight ruby %}
     <style>
        input:-moz-placeholder { color: #999; }
        ::-webkit-input-placeholder { color:red }
     </style>
-
+{% endhighlight %}
 
 
 ### 第一篇文章
