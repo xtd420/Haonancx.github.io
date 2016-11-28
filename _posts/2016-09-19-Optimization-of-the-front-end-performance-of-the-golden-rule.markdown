@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "每个程序猿都都该有的博客"
+title:  "前端性能优化黄金法则"
 date:   2016-09-19 23:03:32
 categories: 浅谈前端 CSS
 tags: 浅谈前端 CSS JS
