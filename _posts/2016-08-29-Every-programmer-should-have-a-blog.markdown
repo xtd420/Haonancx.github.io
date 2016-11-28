@@ -85,9 +85,8 @@ GITHUB地址：[博客仓库](https://github.com/Haonancx/Haonancx.github.io "�
 ### 代码高亮模块（jekyll 支持代码高亮），只需在你写的文章的前后加上约定的代码即可。
 
 ##### 撰写方式
-{% highlight ruby %}
-你的代码
-{% endhighlight %}
+
+![code-1](http://i.imgur.com/EaEn3ln.png)
 
 
 ### 多说评论
