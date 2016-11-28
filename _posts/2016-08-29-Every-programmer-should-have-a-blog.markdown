@@ -95,13 +95,18 @@ jekyll bootstrap搭建的博客默认使用的是Disqus评论插件,当然不是
 
 
 #####这段代码有三个地方需要修改
-data-thread-key填上{{ page.id }}、data-title填上{{ page.title }}、data-url填上your web site/{{ page.url }}、比如：http://haonancx.github.io/{{ page.url }}
+
+
+![jekyll-blog-8](http://i.imgur.com/NtVahOQ.png)
+
+
+最后我们就可以在页面中看到多说了。
+
+![jekyll-blog-9](http://i.imgur.com/FMvB2qX.png)
 
 ### 百度统计
 
-先注册个百度统计的账号(站长账号，适合个人博客)，
-
-注册成功后；
+先注册个百度统计的账号(站长账号，适合个人博客)，注册成功后；
 
 ![jekyll-blog-7](http://i.imgur.com/4wfFmuU.png)
 
