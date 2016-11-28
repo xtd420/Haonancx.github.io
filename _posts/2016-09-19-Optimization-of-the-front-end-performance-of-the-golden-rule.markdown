@@ -5,7 +5,7 @@ date:   2016-09-19 23:03:32
 categories: 浅谈前端 CSS
 tags: 浅谈前端 CSS JS
 ---
-####前端是庞大的，包括 HTML、 CSS、 Javascript、Image 、Flash等等各种各样的资源。前端优化是复杂的，针对方方面面的资源都有不同的方式。那么，前端优化的目的是什么 ?
+###前端是庞大的，包括 HTML、 CSS、 Javascript、Image 、Flash等等各种各样的资源。前端优化是复杂的，针对方方面面的资源都有不同的方式。那么，前端优化的目的是什么 ?
 
 ![Optimization-main](http://i.imgur.com/OJwNxsP.jpg)
 
@@ -15,12 +15,12 @@ tags: 浅谈前端 CSS JS
 - 总之，恰当的优化不仅能够改善站点的用户体验并且能够节省相当的资源利用。
 
 
-#### 前端性能优化 - yahoo前端性能团队总结的35条黄金定律
+### 前端性能优化 - yahoo前端性能团队总结的35条黄金定律
 
-##### yahoo 的Excetional Performance 团队总结出了一系列可以提高网站速度的方法。可以分为 7大类 35条（包括内容、服务器、CSS、JavaScript、Cookie、图片、移动应用）。 
+##### Yahoo 的Excetional Performance 团队总结出了一系列可以提高网站速度的方法。可以分为 7大类 35条（包括内容、服务器、CSS、JavaScript、Cookie、图片、移动应用）。 
 
 
-#### 内容部分
+### 内容部分
 
 
 
@@ -45,7 +45,7 @@ tags: 浅谈前端 CSS JS
 5. 为了提高性能，优化 Ajax响应是很重要的。提高 Ajxa性能的措施中最重要的方法就是使响应具有可缓存性。
  
 
-#### 服务器部分
+### 服务器部分
 
 - 使用内容分发网络
 - 为文件头指定 Expires 或 Cache-Control
@@ -56,7 +56,7 @@ tags: 浅谈前端 CSS JS
 - 避免空的图像来源
  
 
-#### CSS部分
+### CSS部分
 
 - 把样式表置于顶部
 - 避免使用 CSS 表达式（）
@@ -65,7 +65,7 @@ tags: 浅谈前端 CSS JS
  
 
 
-#### JavaScript部分
+### JavaScript部分
 
 - 把脚本置于页面底部
 - 使用外部 JavaScript 和 CSS
@@ -76,21 +76,19 @@ tags: 浅谈前端 CSS JS
  
 
 
-#### Coockie部分
+### Coockie部分
 
 - 减小Cookie体积
 - 对于页面内容使用无coockie域名
  
 
-####Image 部分
+### Image 部分
 
 - 优化图像
 - 优化 CSS Spirite
 - 不要在 HTML 中缩放图像
 - favicon.ico要小而且可缓存
  
-
-
 
 七、 Mobile部分
 
