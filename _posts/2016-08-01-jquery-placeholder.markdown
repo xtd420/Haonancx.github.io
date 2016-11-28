@@ -67,10 +67,14 @@ tags: Jquery 兼容问题
 ![placeholder-2](http://i.imgur.com/VKgKGMh.png)
 
 
-##### 解决方法：#####
+##### 解决方法
 
 
     <style>
        input:-moz-placeholder { color: #999; }
        ::-webkit-input-placeholder { color:red }
     </style>
+
+
+
+### 第一篇文章
