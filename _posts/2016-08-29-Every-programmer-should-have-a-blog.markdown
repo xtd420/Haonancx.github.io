@@ -8,7 +8,7 @@ tags: 浅谈前端 CSS
 ####我为什么要写博客？其实我最初打算写博客，原因很简单，我就是想把工作中、学习中遇到 的问题及解决方案记录下来，它能帮你梳理下整个过程的要注意的地方，写写你在工作中遇到的问题，用来记录和回顾。
 
 
-GITHUB地址：[博客地址](https://github.com/Haonancx/Haonancx.github.io "博客地址")
+GITHUB地址：[博客仓库](https://github.com/Haonancx/Haonancx.github.io "博客仓库")
 
 
 觉得好的话，记得给个星呀~

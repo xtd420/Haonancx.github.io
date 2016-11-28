@@ -64,8 +64,7 @@ a {
 /* Blockquotes*/
 blockquote {
     border-left: 4px solid $grey-color;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    padding-left: $spacing-unit;
     letter-spacing: -1px;
 
     > :last-child {
