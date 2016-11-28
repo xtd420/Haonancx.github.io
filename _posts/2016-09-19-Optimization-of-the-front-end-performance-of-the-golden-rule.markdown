@@ -2,7 +2,7 @@
 layout: post
 title:  "前端性能优化黄金法则"
 date:   2016-09-19 23:03:32
-categories: 浅谈前端 CSS
+categories: 浅谈前端 CSS JS
 tags: 浅谈前端 CSS JS
 ---
 ###前端是庞大的，包括 HTML、 CSS、 Javascript、Image 、Flash等等各种各样的资源。前端优化是复杂的，针对方方面面的资源都有不同的方式。那么，前端优化的目的是什么 ?
