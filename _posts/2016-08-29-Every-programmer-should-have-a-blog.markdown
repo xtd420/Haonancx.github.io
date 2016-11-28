@@ -95,9 +95,7 @@ jekyll bootstrap搭建的博客默认使用的是Disqus评论插件,当然不是
 
 
 #####这段代码有三个地方需要修改
-data-thread-key填上{{ page.id }}
-data-title填上{{ page.title }}
-data-url填上your web site/{{ page.url }} 比如：http://localhost:4000/{{ page.url }}
+data-thread-key填上{{ page.id }}、data-title填上{{ page.title }}、data-url填上your web site/{{ page.url }}、比如：http://haonancx.github.io/{{ page.url }}
 
 ### 百度统计
 
