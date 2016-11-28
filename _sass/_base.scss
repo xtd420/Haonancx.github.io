@@ -71,7 +71,9 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
+blockquote ol li{
+    margin: 15px 0;
+}
 /* Code formatting */
 pre,
 code {
