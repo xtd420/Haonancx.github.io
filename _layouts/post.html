@@ -10,17 +10,16 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-<ul class="pager">
+<div class="paginateBox">
 
 {% if page.previous.url %}
 <a class="pageBtn previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">上一篇</a>
 {% endif %}
-
 {% if page.next.url %}
 <a class="pageBtn next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一篇</a>
-
 {% endif %}
-</ul>
+</div>
+
   <!-- 多说评论框 start -->
    <div class="ds-thread" data-thread-key="{{ page.id }}" data-url="{{ site.url }}{{ page.url }}" data-title="{{ page.title }}" /></div>
 <!-- 多说评论框 end -->
