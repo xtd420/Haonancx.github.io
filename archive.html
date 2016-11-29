@@ -6,6 +6,7 @@ h2{
     font-size: 33px;
     padding: 30px 0;
     color: #f66;
+    cursor: pointer;
 }
 ul{
     margin:0;
@@ -28,7 +29,7 @@ h2{
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
         {% if year != nyear %}
             </ul>
-            <h2>{{ post.date | date: '%Y' }}</h2>
+        <h2 class="link">{{ post.date | date: '%Y' }}</h2>
             <ul>
         {% endif %}
     {% endunless %}
