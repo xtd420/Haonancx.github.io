@@ -3,6 +3,9 @@ body {
 -moz-osx-font-smoothing: grayscale;
 font-family: "Vera Sans YuanTi", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
+ input{
+ -webkit-appearance: none;
+ }
 .header{
 background-image: linear-gradient(to right,#207ce5 0,#26a9ff 100%);
 position: fixed;
@@ -274,7 +277,7 @@ height: 14px;
 width: 2px;
 background-color: currentColor;
 }
-@media screen and (min-width: 768px) {
+
 .dropdown-menu {
 position:relative;
 float: none;
@@ -331,8 +334,6 @@ font-family: inherit;
 border-radius: 4px;
 text-indent: 15px;
 }
-}
-
 /* Category*/
 .category-box {
 font-size: 16px;
