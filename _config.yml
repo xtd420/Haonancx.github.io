@@ -8,6 +8,12 @@ url: "https://haonancx.github.io/" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  Haonancx
 pygments: true
+# Outputting
+permalink: pretty
+paginate: 8
+paginate_path: /page/:num
+timezone: 
+
 # Build settings
 markdown: redcarpet
 redcarpet:
