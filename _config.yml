@@ -10,7 +10,7 @@ github_username:  Haonancx
 pygments: true
 # Outputting
 permalink: pretty
-paginate: 8
+paginate: 5
 paginate_path: /page/:num
 timezone: 
 
