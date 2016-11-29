@@ -269,7 +269,13 @@ text-align: center;
 color: #888;
 letter-spacing: 1px;
 }
-#gotop {
+.gotopBox{
+	position: fixed;
+	background:#26a9ff;
+	right:15px;
+	bottom:20px;
+}
+.gotop {
   color: #000;
   position: absolute;
   margin-left: 10px;
@@ -278,7 +284,7 @@ letter-spacing: 1px;
   height: 16px;
   background-color: currentColor;
 }
-#gotop:before {
+.gotop:before {
   content: '';
   position: absolute;
   left: -5px;
