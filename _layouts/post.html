@@ -10,7 +10,7 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-<div class="paginateBox">
+<div class="paginateBox Border">
 
 {% if page.previous.url %}
 <a class="pageBtn previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">上一篇</a>
