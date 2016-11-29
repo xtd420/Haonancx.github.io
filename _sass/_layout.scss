@@ -239,8 +239,6 @@ color: #26a9ff;
 .post{
 text-align: justify;
 }
-
-
 #cb-close-btn{
     display: inline-block;
     height: 40px;
@@ -281,6 +279,16 @@ margin: 0 15%;
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
+.cb-search-tool ul li{
+dispaly:inline-block;
+}
+.cb-search-tool ul li a{
+width:100%;
+dispaly:inline-block;
+}
+.cb-search-tool ul li a:hover{
+    background:#26a9ff;
+}
 .cb-search-content {
 width: 70%;
 margin: 0 15%;
@@ -295,7 +303,7 @@ color: black;
 opacity: 1.0;
 border: 0;
 font-family: inherit;
-border-radius: 3px;
+border-radius: 4px;
 padding: 0 15px;
 }
 }
