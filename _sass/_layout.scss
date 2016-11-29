@@ -242,7 +242,6 @@ text-align: justify;
 .cb-search-content {
     width: 70%;
     margin: 0 15%;
-    position: absolute;
     top: 13%;
     left: auto;
     right: auto;
@@ -251,6 +250,24 @@ text-align: justify;
     background-color: #eee;
     color: black;
     opacity: 1.0;
+    position: fixed;
+    top: 60px;
+    border: 0;
+    font-family: inherit;
+    border-radius: 3px;
+    padding: 0 15px;
+}
+#cb-close-btn{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid #26a9ff;
+    text-align: center;
+    color: #26a9ff;
+    line-height: 42px;
+    font-size: 25px;
+    cursor: pointer;
 }
 /* Category*/
 .category-box {
