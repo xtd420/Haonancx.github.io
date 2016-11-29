@@ -68,7 +68,6 @@ $(function(){$(".gotopBox").click(function(){jQuery("html,body").animate({scroll
                     var item = data.data[index];
                     names.push(item.title);
                     urls.push(item.url);
-                    alert("err")
                 }
 
                 $("#cb-search-content").typeahead({
