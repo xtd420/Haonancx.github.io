@@ -270,10 +270,13 @@ color: #888;
 letter-spacing: 1px;
 }
 .gotopBox{
-	position: fixed;
-	background:#26a9ff;
-	right:15px;
-	bottom:20px;
+    position: fixed;
+    background: #26a9ff;
+    right: 15px;
+    bottom: 20px;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
 }
 .gotop {
   color: #000;
@@ -289,8 +292,8 @@ letter-spacing: 1px;
   position: absolute;
   left: -5px;
   top: 1px;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
