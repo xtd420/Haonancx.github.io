@@ -240,39 +240,39 @@ color: #26a9ff;
 text-align: justify;
 }
 #cb-close-btn{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    border: 2px solid #26a9ff;
-    text-align: center;
-    color: #26a9ff;
-    line-height: 42px;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: 700;
+display: inline-block;
+height: 40px;
+width: 40px;
+border-radius: 100%;
+border: 2px solid #26a9ff;
+text-align: center;
+color: #26a9ff;
+line-height: 42px;
+font-size: 20px;
+cursor: pointer;
+font-weight: 700;
 }
 
 #cb-search-btn{
- color: #000;
-  position: absolute;
-  margin-top: 2px;
-  margin-left: 3px;
-  width: 12px;
-  height: 12px;
-  border: solid 1px currentColor;
-  border-radius: 100%;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+color: #FFF;
+position: absolute;
+margin-top: 9px;
+margin-left: 8px;
+width: 18px;
+height: 18px;
+border: solid 2px currentColor;
+border-radius: 100%;
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
 }
 #cb-search-btn:before{
-  content: '';
-  position: absolute;
-  top: 12px;
-  left: 5px;
-  height: 6px;
-  width: 1px;
-  background-color: currentColor;
+content: '';
+position: absolute;
+top: 19px;
+left: 8px;
+height: 14px;
+width: 2px;
+background-color: currentColor;
 }
 @media screen and (min-width: 768px) {
 .dropdown-menu {
@@ -283,35 +283,35 @@ width: 70%;
 margin: 0 15%;
 }
 .cb-search-tool ul{
-    position: relative;
-    float: none;
-    font-size: 15px;
-    width: 70%;
-    margin: 0 15%;
-    padding: 0 0 0 15px;
-    background-color: #fff;
-    text-align: left;
-    list-style: none;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+position: relative;
+float: none;
+font-size: 15px;
+width: 70%;
+margin: 0 15%;
+padding: 0 0 0 15px;
+background-color: #fff;
+text-align: left;
+list-style: none;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border: 1px solid #ccc;
+border: 1px solid rgba(0,0,0,.15);
+border-radius: 4px;
+-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 .cb-search-tool ul li{
-    display: inline-block;
-    width: 100%;
-    height: 35px;
-    line-height: 35px;
+display: inline-block;
+width: 100%;
+height: 35px;
+line-height: 35px;
 }
 .cb-search-tool ul li a{
 width:100%;
 display:inline-block;
 }
 .cb-search-tool ul li a:hover{
-    background:#26a9ff;
+background:#26a9ff;
 }
 .cb-search-content {
 width: 70%;
@@ -358,28 +358,28 @@ margin:10px 5px 0 0!important;
 color: #fff;
 }
 .paginateBox{
-    height:40px;
-    padding:40px 0;
+height:40px;
+padding:40px 0;
 }
 .pageBtn{
-    position: absolute;
-    display: inline-block;
-    border-radius: 3px;
-    padding: 6px 20px;
-    border: 1px solid #26a9ff;
-    color: #2c3e50;
-    font-size: 14px;
-    transition:all 0.3s ease;
+position: absolute;
+display: inline-block;
+border-radius: 3px;
+padding: 6px 20px;
+border: 1px solid #26a9ff;
+color: #2c3e50;
+font-size: 14px;
+transition:all 0.3s ease;
 }
 .pageBtn:hover{
-    background:#26a9ff;
-    color: #FFF;
+background:#26a9ff;
+color: #FFF;
 }
 .previous{
-    left:40px;
+left:40px;
 }
 .next{
-    right:40px;
+right:40px;
 }
 /* Footer*/
 .footer {
@@ -394,39 +394,39 @@ letter-spacing: 1px;
 position: fixed;
 background: #26a9ff;
 right: 15px;
-bottom: 80px;
+bottom: 66px;
 height: 45px;
 width: 45px;
 cursor: pointer;
 }
 .gotopBox{
-    position: fixed;
-    background: #26a9ff;
-    right: 15px;
-    bottom: 20px;
-    height: 45px;
-    width: 45px;
-    cursor: pointer;
+position: fixed;
+background: #26a9ff;
+right: 15px;
+bottom: 20px;
+height: 45px;
+width: 45px;
+cursor: pointer;
 }
 .gotop {
-    color: #fff;
-    position: absolute;
-    margin:12px 0 0 21px;
-    width: 2px;
-    height: 23px;
-    background-color: currentColor;
+color: #fff;
+position: absolute;
+margin:12px 0 0 21px;
+width: 2px;
+height: 23px;
+background-color: currentColor;
 }
 .gotop:before {
-    content: '';
-    position: absolute;
-    left: -8px;
-    top: 1px;
-    width: 15px;
-    height: 15px;
-    border-top: solid 2px currentColor;
-    border-right: solid 2px currentColor;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+content: '';
+position: absolute;
+left: -8px;
+top: 1px;
+width: 15px;
+height: 15px;
+border-top: solid 2px currentColor;
+border-right: solid 2px currentColor;
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
 }
 
 // comment
