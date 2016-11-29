@@ -252,6 +252,28 @@ text-align: justify;
     cursor: pointer;
     font-weight: 700;
 }
+
+#cb-search-btn{
+ color: #000;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 3px;
+  width: 12px;
+  height: 12px;
+  border: solid 1px currentColor;
+  border-radius: 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+#cb-search-btn:before{
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  height: 6px;
+  width: 1px;
+  background-color: currentColor;
+}
 @media screen and (min-width: 768px) {
 .dropdown-menu {
 position:relative;
@@ -298,7 +320,7 @@ position: absolute;
 top: 13%;
 left: auto;
 right: auto;
-font-size: 22px;
+font-size: 17px;
 padding: 0 0 0 15px;
 height: 50px;
 background-color: #eee;
@@ -367,6 +389,15 @@ margin: 0 auto 30px;
 text-align: center;
 color: #888;
 letter-spacing: 1px;
+}
+.SearchBox{
+position: fixed;
+background: #26a9ff;
+right: 15px;
+bottom: 80px;
+height: 45px;
+width: 45px;
+cursor: pointer;
 }
 .gotopBox{
     position: fixed;
