@@ -23,13 +23,13 @@ layout: default
 </div>
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
-<div class="pager">
+<div class="paginateBox">
 {% if paginator.previous_page %}
-<a class="previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
+<a class="pageBtn previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
 {% endif %}
 
 {% if paginator.next_page %}
-<a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
+<a class="pageBtn next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
 {% endif %}
 
 </div>
