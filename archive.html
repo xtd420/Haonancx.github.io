@@ -7,14 +7,14 @@ h2{
     padding: 30px 0;
     color: #f66;
 }
-h2:before{
+.DateBox:before{
   content: '';
   position: absolute;
   width: 15px;
   height: 1px;
   background-color: currentColor;
 }
-h2:after{
+.DateBox:after{
   content: '';
   position: absolute;
   width: 15px;
@@ -37,7 +37,7 @@ h2{
 <div class="well">
 {%for post in site.posts %}
     {% unless post.next %}
-        <h2>{{ post.date | date: '%Y' }}</h2>
+        <div class="DateBox"><h2>{{ post.date | date: '%Y' }}</h2><span></span></div>
         <ul>
     {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
