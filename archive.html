@@ -7,6 +7,22 @@ h2{
     padding: 30px 0;
     color: #f66;
 }
+h2:before{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 1px;
+  background-color: currentColor;
+}
+h2:after{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
 ul{
     margin:0;
     padding: 0; 
