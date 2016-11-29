@@ -273,7 +273,6 @@ font-size: 20px;
 cursor: pointer;
 font-weight: 700;
 }
-
 #cb-search-btn{
 color: #FFF;
 position: absolute;
@@ -327,15 +326,14 @@ height: 35px;
 padding: 0 0 0 15px;
 line-height: 35px;
 }
-.cb-search-tool ul li:hover{
-background:#26a9ff;
-color:#fff;
-}
 .cb-search-tool ul li a{
 display: inline-block;
 width: 100%;
 }
-
+.cb-search-tool ul li a:hover{
+background:#26a9ff;
+color:#fff;
+}
 /* Category*/
 .category-box {
 font-size: 16px;
