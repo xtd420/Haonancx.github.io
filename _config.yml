@@ -10,7 +10,7 @@ github_username:  Haonancx
 pygments: true
 # Outputting
 
-paginate: 2
+paginate: 6
 paginate_path: /page/:num
 
 # Build settings
