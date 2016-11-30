@@ -38,8 +38,10 @@ GITHUB地址：[博客仓库](https://github.com/Haonancx/Haonancx.github.io "�
 
 - GITHUB账户
 - SASS、JS、CSS
+- 搜索功能
 - 多说评论
 - 百度统计
+
 
 
 
@@ -89,6 +91,63 @@ GITHUB地址：[博客仓库](https://github.com/Haonancx/Haonancx.github.io "�
 ![code-1](http://i.imgur.com/EaEn3ln.png)
 
 
+
+
+### 搜索功能
+
+##### 试试双击Ctrl键看看，或者点击右下角搜索图标；
+
+
+
+博客从wordpress的jekyll，jekyll的核心思想:
+
+##### 将纯文本转化为静态网站和博客
+
+jekyll只是一个生成静态网页的工具，不需要数据库支持。但是可以配合第三方服务,例如Disqus。最关键的是jekyll可以免费部署在Github上，而且可以绑定自己的域名。
+
+jekyll没有数据库支持，默认没有搜索功能，那么怎么添加炫酷简洁的搜索的功能呢？google一下，大部分都是使用插件之类的，起始我们可以直接在服务端产生索引，之后利用索引进行搜索。
+
+受到spotlight的简洁启发，于是打算做出一个类似于spotlight的搜索。下面先看一下操作步骤：
+
+
+
+1. 服务端生成文章索引
+1. 浏览器获取文章索引
+1. 页面交互以及按键控制
+
+
+##### JSON代码
+
+{% highlight ruby %}
+---
+layout: null
+---
+{
+	"code" : 0 ,
+	"data" : [
+	 {\% for post in site.posts \%}
+	{
+		"title" : " - {\% for tag in post.tags \%}{\% if forloop.rindex != 1 \%}_{\% else \%}{\% endif \%}{\% endfor \%}",
+		"url" : ""
+	}
+	{\% if forloop.rindex != 1  \%}
+	,
+	{\% endif %\}
+{\% endfor \%}
+	]
+}
+{% endhighlight %}
+
+
+- 由于文章中的动态代码会被解析，所以做了替换，代码中%被替换成\%,使用中请去除%前面的转义符
+- 这段代码是一个双层循环，将文章的标题与标签组合，同时和url一起组合为json字符串，方便后续ajax调用。
+- 浏览器获取文章索引，此处也即一个ajax调用，使用$.ajax或者$.getJson都可以，此处可以参考一下ajax的异步请求。
+- 页面交互以及按键控制，为了能够有一个更好的交互，对搜索进行了很多的按键的操作:
+- PC下双击Ctrl键打开或者关闭搜索框，搜索框展示时按下Esc键关闭搜索框，按键的检测在js中也是很容易进行，此处也不在列代码了。
+- 为了移动端也可以很好的搜索，在页面的右下角加入搜索悬浮按钮，点击后打开搜索页面，而在搜索页面，右上角提供关闭按钮，这样整体下来就完美的实现了搜索。
+
+
+
 ### 多说评论
 jekyll bootstrap搭建的博客默认使用的是Disqus评论插件,当然不是说Disqus不好，只是针对我们国内的用户来说,似乎并不是最好的选择。所以我们改为多说（容易上手）。
 
@@ -121,3 +180,6 @@ jekyll bootstrap搭建的博客默认使用的是Disqus评论插件,当然不是
 ##### 按照提示，把代码复制到 head.html 中的head的标签里；（这里特指我的博客文件）
 
 ### 好了，这样你的博客就差不多了，是不是感觉很酷？？？ 今天就到这儿，下篇文章见。
+
+
+### 部分技术实践整理于网络
