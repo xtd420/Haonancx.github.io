@@ -256,6 +256,7 @@ opacity: 1.0;
 border: 0;
 font-family: inherit;
 border-radius: 4px;
+text-indent:15px;
 }
 .cb-search-tool{
 position: fixed; 
@@ -346,7 +347,7 @@ color:#fff;
 .cb-search-tool ul {
 font-size: 20px;
 margin: 0 2%;
-width: 96%;
+width: 98%;
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
