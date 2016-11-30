@@ -415,23 +415,20 @@ text-align: center;
 color: #888;
 letter-spacing: 1px;
 }
-.SearchBox{
+.fixedBtn{
 position: fixed;
 background: #26a9ff;
 right: 15px;
-bottom: 66px;
 height: 45px;
 width: 45px;
-cursor: pointer;
+z-index:999;
+cursor: pointer;	
+}
+.SearchBox{
+bottom: 66px;
 }
 .gotopBox{
-position: fixed;
-background: #26a9ff;
-right: 15px;
 bottom: 20px;
-height: 45px;
-width: 45px;
-cursor: pointer;
 }
 .gotop {
 color: #fff;
