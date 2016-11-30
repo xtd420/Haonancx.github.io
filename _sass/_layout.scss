@@ -343,6 +343,19 @@ padding: 0 0 0 30px;
 background:#26a9ff;
 color:#fff;
 }
+@media screen and (max-width: 767px){
+.cb-search-tool ul {
+position: relative;
+float: none;
+font-size: 20px;
+width: 96%;
+margin: 0 2%;
+width: 96%;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+}
 /* Category*/
 .category-box {
 font-size: 16px;
