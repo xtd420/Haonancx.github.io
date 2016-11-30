@@ -243,7 +243,7 @@ color: #26a9ff;
 text-align: justify;
 }
 #cb-search-content {
-width: 80%;
+width: 100%;
 margin: 0 auto;
 position: relative;
 top: 13%;
@@ -315,7 +315,7 @@ background-color: currentColor;
 position: relative;
 float: none;
 font-size: 15px;
-width: 80%;
+width: 100%;
 margin: 0 auto;
 overflow: hidden;
 background-color: #fff;
@@ -343,18 +343,18 @@ padding: 0 0 0 15px;
 background:#26a9ff;
 color:#fff;
 }
-@media screen and (max-width: 767px){
-.cb-search-tool ul {
-position: absolute;
-float: none;
-font-size: 20px;
-margin: 0 9%;
-width: 72%;
-white-space: nowrap;
-overflow: hidden;
-text-overflow: ellipsis;
-}
-}
+// @media screen and (max-width: 767px){
+// .cb-search-tool ul {
+// position: absolute;
+// float: none;
+// font-size: 20px;
+// margin: 0 9%;
+// width: 72%;
+// white-space: nowrap;
+// overflow: hidden;
+// text-overflow: ellipsis;
+// }
+// }
 /* Category*/
 .category-box {
 font-size: 16px;
