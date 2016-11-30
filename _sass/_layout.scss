@@ -345,12 +345,11 @@ color:#fff;
 }
 @media screen and (max-width: 767px){
 .cb-search-tool ul {
-position: relative;
+position: absolute;
 float: none;
 font-size: 20px;
-width: 96%;
-margin: 0 2%;
-width: 96%;
+margin: 0 9%;
+width: 72%;
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
