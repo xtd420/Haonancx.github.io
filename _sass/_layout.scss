@@ -246,7 +246,7 @@ text-align: justify;
 width: 100%;
 margin: 0 auto;
 position: relative;
-top: 20%;
+top: 25%;
 display: block;
 font-size: 17px;
 height: 50px;
@@ -343,18 +343,23 @@ padding: 0 0 0 15px;
 background:#26a9ff;
 color:#fff;
 }
-// @media screen and (max-width: 767px){
-// .cb-search-tool ul {
-// position: absolute;
-// float: none;
-// font-size: 20px;
-// margin: 0 9%;
-// width: 72%;
-// white-space: nowrap;
-// overflow: hidden;
-// text-overflow: ellipsis;
-// }
-// }
+@media screen and (max-width: 767px){
+.cb-search-tool ul {
+position: absolute;
+float: none;
+font-size: 20px;
+margin: 0 9%;
+width: 72%;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+#cb-search-content {
+    width: 96%;
+    margin: 0 2%;
+}
+
+}
 /* Category*/
 .category-box {
 font-size: 16px;
