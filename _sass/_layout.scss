@@ -291,7 +291,7 @@ font-size: 20px;
 cursor: pointer;
 font-weight: 700;
 }
-#cb-search-btn{
+.searchIcon{
 color: #FFF;
 position: absolute;
 margin-top: 9px;
@@ -303,7 +303,7 @@ border-radius: 100%;
 -webkit-transform: rotate(-45deg);
 transform: rotate(-45deg);
 }
-#cb-search-btn:before{
+.searchIcon:before{
 content: '';
 position: absolute;
 top: 19px;
