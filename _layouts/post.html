@@ -6,12 +6,10 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%Y-%m-%d  %H:%m" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
-
   <article class="post-content">
     {{ content }}
   </article>
 <div class="paginateBox Border">
-
 {% if page.previous.url %}
 <a class="pageBtn previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">上一篇</a>
 {% endif %}
@@ -19,7 +17,6 @@ layout: default
 <a class="pageBtn next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一篇</a>
 {% endif %}
 </div>
-
   <!-- 多说评论框 start -->
    <div class="ds-thread" data-thread-key="{{ page.id }}" data-url="{{ site.url }}{{ page.url }}" data-title="{{ page.title }}" /></div>
 <!-- 多说评论框 end -->
@@ -36,5 +33,4 @@ var duoshuoQuery = {short_name:"haonancx"};
 	})();
 	</script>
 <!-- 多说公共JS代码 end -->
-
 </div>
