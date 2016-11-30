@@ -242,7 +242,7 @@ color: #26a9ff;
 .post{
 text-align: justify;
 }
-.cb-search-content {
+#cb-search-content {
 width: 80%;
 margin: 0 10%;
 position: absolute;
@@ -269,6 +269,10 @@ opacity: 0.95;
 background-color: #111111;
 z-index: 9999;
 display: none;
+}
+.searchToolBox{
+	width:90%;
+	margin:0 auto;
 }
 #cb-close-btn{
 display: inline-block;
