@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "一个Jekyll + GITHUB PAGES 的个人博客"
+title:  "每个程序猿都该有自己的博客"
 date:   2016-08-29 13:23:32
 categories: 浅谈前端 CSS
 tags: 浅谈前端 CSS
