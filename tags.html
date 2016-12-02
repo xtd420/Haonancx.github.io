@@ -26,7 +26,6 @@ h2 {
     font-size: 26px;
     padding: 15px 0;
 }
-
 }
 </style> 
 <div class="well">
@@ -42,8 +41,8 @@ h2 {
 {% assign category = categories | split:',' | sort %}
 {% for item in (0..site.categories.size) %}{% unless forloop.last %}
 {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
-<h2 class="category" id="{{ word }}">{{ word }}</h2>
-<ul>
+<h2 class="category link" id="{{ word }}">{{ word }}</h2>
+<ul class="submenu">
 {% for post in site.categories[word] %}{% if post.title != null %}
 <li><h3><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h3><span>{{ post.date | date: "%Y-%m-%d  %H:%m" }}</span></li>
 {% endif %}{% endfor %}
