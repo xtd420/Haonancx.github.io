@@ -162,6 +162,7 @@ height: 20px;
 border-radius: 100%;
 text-align: center;
 line-height: 20px;
+font-weight: 700;
 }
 .post-content blockquote p {
 font-size: 17px;
@@ -456,7 +457,6 @@ border-right: solid 2px currentColor;
 -webkit-transform: rotate(-45deg);
 transform: rotate(-45deg);
 }
-// comment
 /** Adapt to multiple devices */
 @media screen and (max-width: 420px) {
 .post-content h3:before {
@@ -465,7 +465,5 @@ margin: -7px 0 0 -22px;
 .post-title {
 font-size: 20px;
 }
-.post-content h5:before {
-margin: -4px 0 0 -55px;
-}
+
 }
