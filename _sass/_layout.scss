@@ -29,9 +29,9 @@ position: relative;
 font-size: 28px;
 text-align: center;
 letter-spacing: 5px;
-position: absolute;
+float: left;
 width: 90px;
-left: 0;
+position: relative;
 font-weight: 500;
 }
 .MainIndex a {
@@ -69,11 +69,10 @@ font-size: 16px;
 margin: 0 auto;
 text-align: center;
 height: 55px;
-position: absolute;
+float: right;
+position: relative;
 display: none;
 font-weight: 600;
-right: 0;
-width: 100%;
 }
 .nav li {
 display: inline-block;
