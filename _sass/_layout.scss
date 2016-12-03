@@ -128,9 +128,6 @@ font-weight: bold;
 font-size: 17px;
 margin: 40px 0;
 }
-.post-content h5 {
-text-indent:30px;
-}
 .post-content h6{
 text-indent: 30px;
 font-size: 16px;
@@ -146,14 +143,26 @@ font-weight: bold;
 .post-content h5 {
 font-size: 15px;
 color: #42b983;
+padding: 12px 24px 12px 30px;
+margin: 2em 0;
+border-left: 4px solid #f66;
+background-color: #f8f8f8;
+position: relative;
+border-bottom-right-radius: 2px;
+border-top-right-radius: 2px;
 }
 .post-content h5:before {
-content: "*";
-color: #42b983;
 position: absolute;
-margin: -2px 0 0 -55px;
-font-size: 1.5em;
-font-weight: bold;
+top: 14px;
+left: -12px;
+background-color: #f66;
+color: #fff;
+content: "!";
+width: 20px;
+height: 20px;
+border-radius: 100%;
+text-align: center;
+line-height: 20px;
 }
 .post-content blockquote p {
 font-size: 17px;
