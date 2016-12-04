@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "Javascript 原型"
+title:  "Javascript 深入理解闭包"
 date:   2016-10-03 22:04:28
 categories: JS
 tags: JS
 ---
 
-#### 闭包（closure）是Javascript语言的一个重点，也是难点，对于新手来说，概念过于抽象；而现在书上的大部分解释都比较含糊，本文将把闭包掰开了、揉碎了讲个清楚。
+#### 闭包（closure）是Javascript语言的一个重点，也是难点，对于新手来说，概念过于抽象；而现在书上的大部分解释都比较含糊，本文将把闭包掰开了、揉碎了讲个清楚。####
+
+
+
 
 
 
