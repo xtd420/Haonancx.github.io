@@ -13,7 +13,7 @@ tags: JS
 
 
 
-![in-depth-1](http://i.imgur.com/ykx6i89.jpg)
+#### ![in-depth-1](http://i.imgur.com/ykx6i89.jpg)
 
 ### 闭包
 
