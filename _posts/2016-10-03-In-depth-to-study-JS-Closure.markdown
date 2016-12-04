@@ -9,7 +9,6 @@ tags: JS
 
 ####Javascript 深入理解（一）
 
-![in-depth-1](http://i.imgur.com/ykx6i89.jpg)
 
 ###闭包
 
