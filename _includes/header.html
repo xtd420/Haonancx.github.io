@@ -53,9 +53,20 @@
 					<a href="/about.html">关于</a>
 				</li>			
 			{% endif %}
+<!-- 				<li>
+	<a href="https://github.com/{{ site.github_username }}" title="Github">开源</a>
+</li>	 -->
+				{% if page.path == "OpenS.html" %}
+			<span class="title">
 				<li>
-					<a href="https://github.com/{{ site.github_username }}" title="Github">开源</a>
-				</li>	
+					<a href="/OpenS.html">开源</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="/OpenS.html">开源</a>
+				</li>			
+			{% endif %}
 		</div>	
 	</div>
 	<div class="cb-search-tool">
